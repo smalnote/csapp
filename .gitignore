@@ -1,6 +1,10 @@
 # assembly code
 *.s
+*.o
+core.*
 
 # executable
 # find . -executable -not \( -path ./.git -prune \) -type f  -printf '%P\n' >> .gitignore
 multistore/multistore
+prog2
+prog
