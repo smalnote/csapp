@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int buf[2] = {1, 2};
-int *p, *q;
+int *p, *q; // p will be ignore likely
 extern void swap();
+
+int a(){
+}
 
 int main() {
     q = buf;

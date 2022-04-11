@@ -4,7 +4,7 @@ main:
 swap:
 	gcc -Og -c swap.c
 prog: main swap
-	gcc -Og -o prog main.o swap.o && ./prog
+	gcc -Og -fno-common -o prog main.o swap.o && ./prog
 
 prog2:
 	gcc -Og -o prog2 main.c swap.c && ./prog2
