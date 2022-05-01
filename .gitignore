@@ -1,6 +1,7 @@
 # assembly code
 *.s
 *.o
+*.so
 *.a
 core.*
 
