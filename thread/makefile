@@ -6,3 +6,6 @@ run_shared_variable:
 
 run_shared_variable_semaphore:
 	gcc -lpthread -o prog shared_variable_semaphore.c && ./prog
+
+run_signal_cleanup:
+	gcc -lpthread -o prog signal_cleanup.c && ./prog
