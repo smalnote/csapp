@@ -6,3 +6,6 @@ run_hex2dd:
 
 run_process_server:
 	gcc -o prog process_server.c && ./prog
+
+run_fd_set_size:
+	gcc -o prog fd_set_size.c && ./prog
